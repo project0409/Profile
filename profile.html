@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>K Sravan Kumar | Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body { scroll-behavior: smooth; }
+    .hero {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      padding: 100px 20px;
+    }
+    .section-title {
+      color: #2a5298;
+      margin-bottom: 40px;
+    }
+    footer {
+      background: #212529;
+      color: white;
+      padding: 15px 0;
+    }
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Sravan Kumar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero text-center" id="home">
+  <div class="container">
+    <img src="me.png" alt="Profile" class="profile-img mb-3">
+    <h1 class="fw-bold">K Sravan Kumar</h1>
+    <p class="lead">B.Tech CSE Student | Data Analyst | Front-End Developer</p>
+    <a href="Sravan_resume.pdf" class="btn btn-light btn-lg mt-3" download>View Resume</a>
+  </div>
+</section>
+
+<!-- About -->
+<section class="py-5" id="about">
+  <div class="container">
+    <h2 class="text-center section-title">About Me</h2>
+    <p class="text-center">
+      I am a motivated Computer Science Engineering student currently pursuing my B.Tech
+      at Vasi Reddy Venkatadri Institute of Technology. I have strong interest in
+      data analysis, front-end development, and problem solving.
+    </p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="bg-light py-5" id="skills">
+  <div class="container">
+    <h2 class="text-center section-title">Skills</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <ul class="list-group list-group-flush fs-5">
+          <li class="list-group-item">HTML5, CSS3</li>
+          <li class="list-group-item">Bootstrap & Responsive Design</li>
+          <li class="list-group-item">JavaScript (Basics)</li>
+          <li class="list-group-item">Python</li>
+          <li class="list-group-item">Data Analysis</li>
+          <li class="list-group-item">SQL & DBMS</li>
+          <li class="list-group-item">UNIX / Operating Systems</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section class="py-5" id="education">
+  <div class="container">
+    <h2 class="text-center section-title">Education</h2>
+    <div class="accordion" id="eduAccordion">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#btech">B.Tech – CSE</button>
+        </h2>
+        <div id="btech" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            CGPA: 8.0<br>
+            Duration: 2024 – 2027<br>
+            Vasi Reddy Venkatadri Institute of Technology
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#minor">Minor Degree</button>
+        </h2>
+        <div id="minor" class="accordion-collapse collapse">
+          <div class="accordion-body">2025 – 2027 | Vasi Reddy Venkatadri Institute of Technology</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#diploma">Diploma – CSE</button>
+        </h2>
+        <div id="diploma" class="accordion-collapse collapse">
+          <div class="accordion-body">
+		Percentage: 85% <br>
+		Duration :2021 – 2024<br>
+		AANM & VVRSR Polytechnic
+</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#ssc">SSC</button>
+        </h2>
+        <div id="ssc" class="accordion-collapse collapse">
+          <div class="accordion-body">
+		GPA: 10 CGPA<br>
+		Class: 7th – 10th<br> 
+		 Oxford School, Gunturx
+</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="bg-light py-5" id="contact">
+  <div class="container text-center">
+    <h2 class="section-title">Contact</h2>
+    <p>📞 9440035228</p>
+    <p>🔗 LinkedIn: Sravan Kumar</p>
+  </div>
+</section>
+
+<footer class="text-center">
+  <p class="mb-0">© 2026 K Sravan Kumar | Portfolio</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
